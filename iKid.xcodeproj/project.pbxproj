@@ -508,6 +508,7 @@
 				90D292F11DCB4AB500A4DDFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D292F21DCB4AB500A4DDFC /* Build configuration list for PBXNativeTarget "iKidTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +517,7 @@
 				90D292F41DCB4AB500A4DDFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90D292F51DCB4AB500A4DDFC /* Build configuration list for PBXNativeTarget "iKidUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +526,7 @@
 				90D292F71DCB4AB500A4DDFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
