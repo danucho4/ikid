@@ -285,10 +285,10 @@ amputated after a car crash?</string>
             </objects>
             <point key="canvasLocation" x="1490.4000000000001" y="362.96851574212894"/>
         </scene>
-        <!--Dad-->
+        <!--Image-->
         <scene sceneID="0tD-i8-dse">
             <objects>
-                <viewController id="5AS-Mw-UhT" sceneMemberID="viewController">
+                <viewController title="Image" id="5AS-Mw-UhT" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EuM-pt-jMG"/>
                         <viewControllerLayoutGuide type="bottom" id="wUs-fV-gON"/>
@@ -297,15 +297,6 @@ amputated after a car crash?</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="3" y="265" width="368" height="136"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Did you hear about the two guys
-that stole a calendar?</string>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nOo-Za-6Ul">
                                 <rect key="frame" x="325" y="588" width="50" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
@@ -314,14 +305,17 @@ that stole a calendar?</string>
                                     <segue destination="afc-dd-oCN" kind="presentation" modalTransitionStyle="flipHorizontal" id="F4u-ec-NAa"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="two_computers" translatesAutoresizingMaskIntoConstraints="NO" id="rV1-tL-vE8">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerY" secondItem="2m7-E9-6Gr" secondAttribute="centerY" id="6Yw-HN-0wg"/>
-                            <constraint firstItem="zEq-FU-wV5" firstAttribute="centerX" secondItem="2m7-E9-6Gr" secondAttribute="centerX" id="Hxv-AY-3g5"/>
+                            <constraint firstItem="rV1-tL-vE8" firstAttribute="centerX" secondItem="2m7-E9-6Gr" secondAttribute="centerX" id="AmK-AH-79T"/>
+                            <constraint firstItem="rV1-tL-vE8" firstAttribute="centerY" secondItem="2m7-E9-6Gr" secondAttribute="centerY" id="ujC-cC-TwV"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Dad" image="first" id="56M-zW-cGa"/>
+                    <tabBarItem key="tabBarItem" title="Pic Joke" image="first" id="56M-zW-cGa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qVp-FT-Gre" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -339,12 +333,6 @@ that stole a calendar?</string>
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="They each got six months." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mXe-XR-lAF">
-                                <rect key="frame" x="42" y="291" width="290" height="84"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qRA-lu-OAP">
                                 <rect key="frame" x="0.0" y="637" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -353,11 +341,14 @@ that stole a calendar?</string>
                                     <segue destination="49e-Tb-3d3" kind="presentation" modalTransitionStyle="flipHorizontal" id="lxz-bw-7OD"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="two_computers 2" translatesAutoresizingMaskIntoConstraints="NO" id="qTC-nJ-lzw">
+                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="mXe-XR-lAF" firstAttribute="centerY" secondItem="Xiz-Yb-cqO" secondAttribute="centerY" id="EO9-LB-zxm"/>
-                            <constraint firstItem="mXe-XR-lAF" firstAttribute="centerX" secondItem="Xiz-Yb-cqO" secondAttribute="centerX" id="H0f-it-4bG"/>
+                            <constraint firstItem="qTC-nJ-lzw" firstAttribute="centerY" secondItem="Xiz-Yb-cqO" secondAttribute="centerY" id="TPz-ld-Ctu"/>
+                            <constraint firstItem="qTC-nJ-lzw" firstAttribute="centerX" secondItem="Xiz-Yb-cqO" secondAttribute="centerX" id="zqs-db-UD1"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -388,8 +379,10 @@ that stole a calendar?</string>
     </scenes>
     <resources>
         <image name="first" width="30" height="30"/>
+        <image name="two_computers" width="228" height="233"/>
+        <image name="two_computers 2" width="238" height="235"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="1Cb-nV-o55"/>
+        <segue reference="lxz-bw-7OD"/>
     </inferredMetricsTieBreakers>
 </document>
