@@ -9,10 +9,127 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Good-->
+        <!--View Controller-->
+        <scene sceneID="n9r-KI-4rm">
+            <objects>
+                <viewController id="Geb-Ny-YFx" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TzP-nZ-7H3"/>
+                        <viewControllerLayoutGuide type="bottom" id="bQC-rX-qLA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ypr-y8-i8b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" misplaced="YES" text="Who's there?" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="vBX-CZ-FCB">
+                                <rect key="frame" x="123" y="321" width="128.5" height="25"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAu-Bm-eeA">
+                                <rect key="frame" x="325" y="637" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="lb4-5t-dH5" kind="presentation" modalTransitionStyle="flipHorizontal" id="xtV-9H-iD4"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="vBX-CZ-FCB" firstAttribute="centerY" secondItem="ypr-y8-i8b" secondAttribute="centerY" id="3uO-gV-R4H"/>
+                            <constraint firstItem="vBX-CZ-FCB" firstAttribute="centerX" secondItem="ypr-y8-i8b" secondAttribute="centerX" id="kUk-dQ-yL6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dDj-M9-xSs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="750" y="-1057"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4Ay-fk-Fh5">
+            <objects>
+                <viewController id="lb4-5t-dH5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9EG-5X-0IG"/>
+                        <viewControllerLayoutGuide type="bottom" id="P9v-OF-tyU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="c24-r3-Zb2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" misplaced="YES" text="Robin!" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="Vn0-hB-pb7">
+                                <rect key="frame" x="123" y="321" width="128.5" height="25"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xsF-79-otl">
+                                <rect key="frame" x="325" y="637" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="dnB-B5-uDT" kind="presentation" modalTransitionStyle="flipHorizontal" id="hOA-tb-KfW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Vn0-hB-pb7" firstAttribute="centerX" secondItem="c24-r3-Zb2" secondAttribute="centerX" id="Dx3-3y-oJq"/>
+                            <constraint firstItem="Vn0-hB-pb7" firstAttribute="centerY" secondItem="c24-r3-Zb2" secondAttribute="centerY" id="G0i-du-YK6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aoG-5R-18V" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1460" y="-1057"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8u5-cx-iQY">
+            <objects>
+                <viewController id="dnB-B5-uDT" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Hy0-7k-Pza"/>
+                        <viewControllerLayoutGuide type="bottom" id="vqt-0E-3gQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HgL-2z-A6T">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" misplaced="YES" text="Robin who?" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="aPx-V5-Gkl">
+                                <rect key="frame" x="123" y="321" width="128.5" height="25"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JJT-Zt-owk">
+                                <rect key="frame" x="325" y="637" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="z5c-Qh-MnU" kind="presentation" modalTransitionStyle="flipHorizontal" id="iuc-op-lRD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aPx-V5-Gkl" firstAttribute="centerX" secondItem="HgL-2z-A6T" secondAttribute="centerX" id="WJW-yg-3Ca"/>
+                            <constraint firstItem="aPx-V5-Gkl" firstAttribute="centerY" secondItem="HgL-2z-A6T" secondAttribute="centerY" id="ouh-Di-CKs"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jFE-VI-frq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2228" y="-1057"/>
+        </scene>
+        <!--Knock!-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController title="Good" id="9pv-A4-QxB" customClass="FirstViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Knock!" id="9pv-A4-QxB" customClass="FirstViewController" customModule="iKid" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -21,8 +138,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" text="Hey Doc! how did the surgery go?" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="29.5" y="322" width="316.5" height="24.5"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" text="Knock! Knock!" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="120.5" y="321" width="134.5" height="25"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -33,7 +150,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMinY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
-                                    <segue destination="z5c-Qh-MnU" kind="presentation" modalTransitionStyle="flipHorizontal" id="GjG-5B-Qh4"/>
+                                    <segue destination="Geb-Ny-YFx" kind="presentation" modalTransitionStyle="flipHorizontal" id="Ijj-80-Wom"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -43,7 +160,7 @@
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Good" image="first" selectedImage="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Knock" image="first" selectedImage="first" id="acW-dT-cKf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -61,12 +178,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Surgery? Shoot! Wasn't it an autopsy?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzV-Od-U9I">
-                                <rect key="frame" x="9" y="288" width="357" height="90"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B0X-rR-z83">
                                 <rect key="frame" x="0.0" y="637" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -76,6 +187,12 @@
                                     <segue destination="49e-Tb-3d3" kind="presentation" modalTransitionStyle="flipHorizontal" id="1Cb-nV-o55"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Robin you!!! Give me the cash!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzV-Od-U9I">
+                                <rect key="frame" x="9" y="288" width="357" height="90"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -273,6 +390,6 @@ that stole a calendar?</string>
         <image name="first" width="30" height="30"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="lxz-bw-7OD"/>
+        <segue reference="1Cb-nV-o55"/>
     </inferredMetricsTieBreakers>
 </document>
